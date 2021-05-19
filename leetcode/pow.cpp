@@ -1,4 +1,6 @@
- int f = 0;
+class solution {
+public:
+int f = 0;
     double myPow(double x, int n) 
     {  
         if(n<0)
@@ -21,3 +23,4 @@
                 return (1/x)*myPow(x,n-1);
         }
     }
+};
