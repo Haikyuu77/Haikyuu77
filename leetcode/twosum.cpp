@@ -1,4 +1,6 @@
- vector<int> twoSum(vector<int>& nums, int target) 
+class solution {
+ public:
+vector<int> twoSum(vector<int>& nums, int target) 
     {
         unordered_map<int,int> m;
         int y;
@@ -13,4 +15,5 @@
         }
         return {-1,-1};
     }
+};
       
